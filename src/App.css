@@ -2,25 +2,399 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+
+a{
+  text-decoration: none
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+/* NAVBAR Styles*/
+
+.nav{
+background-color: white;
+}
+ 
+.navbar {
+  background-color: white ;
+}
+
+.navbar-default .navbar-nav  > li > a { 
+  color: #444E63;
+  font-family: 'Raleway', sans-serif;
+} 
+
+.navbar-default .navbar-nav  > li > a:hover{
+  color: #1CA18B;;
+
+}
+
+
+.register {
+  background-color:#F7D031;
+}
+/* NAVBAR END */
+
+
+
+/* LANDING PAGE */
+
+.landing-top{
+margin-top: 15px;
+}
+
+
+.landing-bottom-header{
+width:70%
+}
+
+
+.landing-bottom{
+line-height: 1.9;
+font-family: 'Raleway', sans-serif;
+font-size: 14pt;
+color:#444E63;
+margin: 50px 110px 40px 110px;
+}
+
+.landing-video{
+width:70%;
+
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* LANDING END */
+
+
+
+/* REGISTER PAGE STYLES */
+
+.register-top{
+background-color: #F9E122;
+height:350px;
+width:100%;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+margin-top: 0px;
+color:#ffffff;
+letter-spacing: 7px;
+}
+
+
+.register-top :hover{
+color:#444E63;
+}
+
+
+.register-top p{
+position: relative;
+top: 35%;
+transform: translateY(-50%);
+font-size: 50pt;
+margin-top: 15px;
+
+-webkit-animation-duration: 4s;
+-webkit-animation-delay: 1.5s;
+-webkit-animation-iteration-count: 7;
+}
+
+.register-bottom-header{
+font-family: 'Mr Dafoe', cursive;
+font-size: 40pt;
+color: #444E63;
+margin-bottom: 25px
+
+}
+
+.register-bottom{
+line-height: 1.9;
+font-family: 'Raleway', sans-serif;
+font-size: 14pt;
+color:#444E63;
+margin: 50px 110px 50px 110px;
+}
+
+
+/* REGISTER PAGE END */
+
+
+
+/* FAQ PAGE */
+
+.faq-top{
+width:100%;
+
+}
+
+.faq-bottom{
+
+color:#1BA28A;
+font-size: 14pt;
+font-weight: bold;
+ font-family: 'Raleway', sans-serif;
+margin: 50px 110px 50px 110px;
+text-align: left
+}
+
+
+.faq-bottom span{
+font-weight: 100;
+font-size: 12pt;
+color:#444E63;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+
+}
+/* FAQ END */
+
+
+
+
+/* VENUE PAGE */
+.venue-one{
+margin:12px 15% 10px 15%;
+
+}
+
+.venue-two{
+height:40px;
+width:300px;
+background-color: #1CA18B;
+color:white;
+font-size: 17pt;
+border-radius: 5px;
+font-family: 'Raleway', sans-serif;
+margin:20px;
+border: 3px solid white;
+}
+
+
+.venue-two a{
+  text-decoration: none;
+  color:white;
+}
+
+.venue-two a:hover{
+background-color: #ffffff;
+color:#1CA18B;
+}
+.venue-two:hover{
+  background-color:white;
+  border: 3px solid #1CA18B;
+}
+
+.venue-three{
+margin:50px 15% 10px 15%;
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 25px;
+justify-items: center;
+align-content: space-between;
+font-family: 'Raleway', sans-serif;
+color:#444E63;
+}
+
+.venue-three span{
+font-weight: bold;
+}
+
+.venue-four{
+margin:12px 15% 0px 15%;
+}
+
+.venue-four hr{
+background-color: #1CA18B;
+height: 3px;
+border:none;
+}
+
+.venue-five{
+width:320px;
+margin-bottom:30px;
+}
+
+.venue-five span1{
+font-family: 'Mr Dafoe', cursive;
+font-size: 35pt;
+}
+
+.venue-five span2{
+font-weight: bold
+}
+/* VENUE END */
+
+
+
+/* SCHEDULE PAGE */
+
+.schedule-top{
+width:100%;
+color:#444E63;
+margin:20px;
+}
+
+
+.schedule-bottom{
+line-height: 1.9;
+font-family: 'Raleway', sans-serif;
+font-size: 14pt;
+color:#444E63;
+margin: 100px 110px 50px 110px;
+}
+
+
+.schedule-bottom-header{
+font-family: 'Mr Dafoe', cursive;
+font-size: 40pt;
+color: #444E63;
+margin-bottom: 25px
+
+}
+
+
+
+/* SCHEDULE END */
+
+
+/* BOOTSTRAP CUSTOM SYTLES */
+
+
+.carousel {
+  background-color:#ffffff;
+}
+.carousel image{
+  width:100%;
+}
+.carousel-indicators li {
+  visibility: hidden; 
+}
+
+.carousel .glyphicon-chevron-right{
+  display:none;
+}
+
+.carousel .glyphicon-chevron-left{
+  display:none;
+}
+
+.carousel-control.left, .carousel-control.right {
+display:none;
+}
+.btn-custom{
+  background-color:#F7D02F;
   color: white;
+  border: 3px solid #F7D02F;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-custom:hover{
+  background-color:#ffffff;
+  color:#F7D02F;
+  font-weight: 600;
+  box-shadow: 5px 2px 20px #dcdcdc;
 }
+
+/* .panel-default{
+  border-color:white;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 0px; }
+
+
+
+.panel > .panel-heading {
+  background-image: none;
+  background-color:#F7D02F;
+  color: white;
+  width:50%;
+  border-color:white;
+} */
+
+.navlineup{
+  text-align: center;
+}
+.navlineup .navbar-default .navbar-nav  > li > a { 
+  color:#444E63;
+  font-size:15pt;
+
+}
+
+.data-toggle {
+  display:none;
+}
+
+.navlineup .navbar-default {
+  border-color:white;
+
+}
+
+
+.dropdown-toggle:active, .open .dropdown-toggle {
+  background:#FFF !important; 
+  color:#000 !important;
+}
+
+.scheduledrop{
+  width:320px;
+  background-color:white;
+  font-size:13pt;
+  margin:10px;
+  padding:5px;
+  color: #1CA18B;
+}
+
+.jnoschedule{
+  width:600px;
+}
+
+/* BOOTSTRAP STYLES END */
+
+
+/* CUSTOM STYLES TESTING*/
+
+
+.component {
+  color: white;
+  height: 200px;
+  width: 100%;
+  background-color: grey;
+  font-size: 20pt;
+  padding-top: 75px;
+
+}
+
+.test{
+  font-family: 'Raleway', sans-serif;
+  color: lawngreen;
+  font-size: 24pt;
+  height: 100px;
+  background-color: lightgray;
+  text-shadow: 2px 2px #444E63 ;
+  padding:40px;
+  width:100%
+  
+}
+
+.dropdown-menu{
+  text-align: left;
+  float:none;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -30,3 +404,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+
+
+  .landing-video{
+    width:95%;
+    }
+
+
+    .landing-bottom-header{
+      width:95%
+      }
+
+
+      .landing-bottom{
+        line-height: 1.8;
+        font-family: 'Raleway', sans-serif;
+        font-size: 10pt;
+        margin: 40px 15px 30px 15px;
+        }
+
+
+        .venue-three{
+          margin:30px 5px 10px 5px;
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 25px;
+          justify-items: center;
+          align-content: space-between;
+          font-size: 9pt;
+          }
+
+          .venue-five{
+            font-size:9pt;
+            width:280px;
+            margin-bottom:30px;
+          }
+
+          .faq-bottom{
+            font-size: 10pt;
+            margin: 50px 10px 50px 10px;
+            text-align: left
+            }
+            
+            .faq-bottom span{
+            font-weight: 100;
+            font-size: 9pt;
+            color:#444E63;
+            text-align: center;
+            }
+
+            .jnoschedule{
+              width:320px;
+      
+            }
+
+            .navlineup{
+              margin-left:50px
+            }
+}
+
