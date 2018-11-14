@@ -6,6 +6,11 @@ import Schedule from './Schedule';
 import Faq from './Faq';
 import Error from './Error';
 import Footer from './Footer';
+import Sched from './Sched'
+import DayOne from './DayOne'
+import DayTwo from './DayTwo'
+import JNO from './JNO'
+import Round from './Round'
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
@@ -24,8 +29,13 @@ class App extends Component {
               <Switch>
                 <Route path="/" component={Home} exact />
                 <Route path="/theLOCALE" component={Venue} />
-                <Route path="/theLINEUP" component={Schedule} />
+                <Route path="/theLINEUP" component={DayOne} />
                 <Route path="/QandA" component={Faq} />
+                <Route path="/Sched" component={Sched} />
+                <Route path="/DayOne" component={DayOne} />
+                <Route path="/DayTwo" component={DayTwo} />
+                <Route path="/JNO" component={JNO} />
+                <Route path="/Round" component={Round} />
                 <Route component={Error} />
               </Switch>
           </Router>

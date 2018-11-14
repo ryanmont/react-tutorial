@@ -22,6 +22,11 @@ class Home extends Component {
             <br />
             <img src="https://s3-us-west-1.amazonaws.com/mont-general/quote+graphic.jpg" alt="faq" style={{"width":"100%"}} />
             <br />
+
+                        <br />
+            <img src="https://s3-us-west-1.amazonaws.com/mont-general/quote+graphic3.jpg" alt="faq" style={{"width":"100%"}} />
+            <br />
+            <br />
         </center>
       </div> 
     );

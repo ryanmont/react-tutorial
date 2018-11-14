@@ -4,6 +4,7 @@ import LineupCarousel from './LineupCarousel';
 import LineupCollapse from './LineupCollapse';
 
 
+
 class Schedule extends Component {
   render() {
     return (
@@ -24,6 +25,8 @@ class Schedule extends Component {
     <br />
     <br />
     <br />
+    <br />
+
 
     </center>
 

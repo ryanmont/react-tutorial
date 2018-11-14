@@ -39,7 +39,11 @@ class Navigation extends Component {
               QandA
             </NavItem>
 
-            <NavItem  className ="register" eventKey={5} href="http://www.regfox.com">
+            <NavItem eventKey={4} href="Sched">
+             Sched
+            </NavItem>
+
+            <NavItem  className ="register" eventKey={5} href="https://janecon2019.regfox.com/janecon-2019">
               I'M in!
             </NavItem>
          

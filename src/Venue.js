@@ -10,13 +10,13 @@ class Venue extends Component {
         <br />
         <br />
 
- <div class = "venue-one">
+ <div className = "venue-one">
 
 <img src="https://s3-us-west-1.amazonaws.com/mont-general/uvcc+copy.jpg" alt="faq" style={{"width":"100%"}} />
 </div>
 
 <center>
-<div class = "venue-two">
+<div className = "venue-two">
   <a href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
   Parking 
   &
@@ -25,7 +25,7 @@ class Venue extends Component {
 </div>
 </center>
 
-<div class = "venue-three">
+<div className = "venue-three">
 
     <div>
       <span>
@@ -68,7 +68,7 @@ class Venue extends Component {
 </div>
 
 
-<div class= "venue-four">
+<div className= "venue-four">
   <br />
   <hr />
   <br />
@@ -77,7 +77,7 @@ class Venue extends Component {
 
 
 <center>
-<div class = "venue-five">
+<div className = "venue-five">
 
  <img src="https://s3-us-west-1.amazonaws.com/mont-general/accomodations.jpg" alt="faq" style={{"width":"100%"}} />
 
@@ -94,13 +94,13 @@ $130/night plus tax<br />
 <br />
 
 
-    <a class="btn btn-large btn-custom"  href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
+    <a className="btn btn-large btn-custom"  href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
     Book your room now 
     </a>
 
 </div>
 </center>
-
+Name
 
       </div>
     );
