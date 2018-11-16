@@ -5,6 +5,7 @@ import DayNav from './DayNav';
 class DayOne extends Component {
   render() {
     return (
+        <div id="DayOne">
       <div >
     <br />
     <br />
@@ -26,6 +27,7 @@ class DayOne extends Component {
     <br />
     <br />
 
+      </div>
       </div>
     );
   }

@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class Venue extends Component {
   render() {
     return (
-      <div >
+      <div id="Nav2 ">
         <br />
         <br />
         <br />
@@ -16,13 +16,13 @@ class Venue extends Component {
 </div>
 
 <center>
-<div className = "venue-two">
-  <a href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
+
+  < a class="btn btn-custom"  href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
   Parking 
   &
   Directions
 </a>
-</div>
+
 </center>
 
 <div className = "venue-three">
@@ -94,15 +94,18 @@ $130/night plus tax<br />
 <br />
 
 
-    <a className="btn btn-large btn-custom"  href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
+    < a className="btn btn-custom"   href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
     Book your room now 
     </a>
+
+
 
 </div>
 </center>
 Name
 
       </div>
+  
     );
   }
 }

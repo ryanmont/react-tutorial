@@ -34,12 +34,12 @@ class DayNav extends Component {
         </Navbar.Collapse>
       </Navbar> */}
  
-
-<ButtonGroup justified>
-  <Button eventKey={1} href="DayOne"> Day One</Button>
-  <Button eventKey={3} href="/DayTwo">Day Two</Button>
-  <Button eventKey={3} href="/JNO">JNO</Button>
-  <Button eventKey={4} href="Round"> Round</Button>
+<br />
+<ButtonGroup justified >
+  <Button eventKey={1} href="/DayOne" className= "btn btn-custom2 link1"> Day One</Button>
+  <Button eventKey={3} href="/DayTwo" className= "btn btn-custom2 link2">Day Two</Button>
+  <Button eventKey={3} href="/JNO" className= "btn btn-custom2 link3">JNO</Button>
+  <Button eventKey={4} href="Round" className= "btn btn-custom2 link4"> Round</Button>
  
 </ButtonGroup>
 

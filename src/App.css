@@ -299,17 +299,56 @@ display:none;
 }
 .btn-custom{
   background-color:#F7D02F;
-  color: white;
+  color:#444E63;
+  padding:10px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
   border: 3px solid #F7D02F;
 }
 
 .btn-custom:hover{
   background-color:#ffffff;
   color:#F7D02F;
-  font-weight: 600;
+  font-weight: bold;
+  text-decoration: none;
   box-shadow: 5px 2px 20px #dcdcdc;
 }
 
+.btn-custom2{
+  background-color:#F7D02F;
+  color:#444E63;
+  padding:10px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  border: 1px solid white
+}
+
+.btn-custom2:hover{
+  opacity:0.7;
+  background-color:#F7D02F;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid white
+
+}
+
+
+#DayOne .link1, #DayTwo .link2, #JNOJane .link3, #Round .link4 {  
+  color: #1CA18B;
+  border-top: 3px solid #1CA18B;
+  background-color:white;
+}
+
+#test1 .active1, #Nav2 .active2 , #Nav3 .active3 , #Nav4 .active4 , #Nav5 .active5  {
+  border-top: 3px solid grey;
+  color:pink;
+}
+
+.active8{
+  color:red;
+}
 /* .panel-default{
   border-color:white;
 }

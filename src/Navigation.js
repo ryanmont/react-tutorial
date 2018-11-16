@@ -23,23 +23,24 @@ class Navigation extends Component {
         <Navbar.Collapse>
           <Nav pullRight >
             
-            <NavItem eventKey={1} href="/">
+            <NavItem eventKey={1} href="/" >
               what's UP
             </NavItem>
+         
 
-            <NavItem eventKey={2} href="/theLOCALE">
+            <NavItem eventKey={2} href="/theLOCALE" className="active2" >
               theLOCALE
             </NavItem>
 
-            <NavItem eventKey={3} href="/theLINEUP">
+            <NavItem eventKey={3} href="/theLINEUP"className="active3" >
               theLINEUP
             </NavItem>
 
-            <NavItem eventKey={4} href="QandA">
+            <NavItem eventKey={4} href="QandA" className="active4">
               QandA
             </NavItem>
 
-            <NavItem eventKey={4} href="Sched">
+            <NavItem eventKey={4} href="Sched" className="active5">
              Sched
             </NavItem>
 

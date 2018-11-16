@@ -5,6 +5,7 @@ import DayNav from './DayNav';
 class JNO extends Component {
   render() {
     return (
+        <div id="JNOJane">
       <div >
     <br />
     <br />
@@ -26,6 +27,7 @@ class JNO extends Component {
     <br />
     <br />
 
+      </div>
       </div>
     );
   }

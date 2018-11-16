@@ -7,6 +7,7 @@ import Video from './Video';
 class Home extends Component {
   render() {
     return (
+      <body id="DayOne">
       <div>
       
          <center>
@@ -29,6 +30,7 @@ class Home extends Component {
             <br />
         </center>
       </div> 
+      </body>
     );
   }
 }
