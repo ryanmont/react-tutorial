@@ -5,8 +5,8 @@ class LandingBottom extends Component {
   render() {
     return (
       <div >
-<div class = "landing-bottom">
-<div class = "landing-bottom-header">
+<div className = "landing-bottom">
+<div className = "landing-bottom-header">
 
  <img src="https://s3-us-west-1.amazonaws.com/mont-general/get+ready.png" alt="faq" style={{"width":"100%"}} />
 

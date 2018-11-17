@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import DayNav from './DayNav';
+import Navigation from './Navigation';
 
 
 class DayOne extends Component {
   render() {
     return (
         <div id="DayOne">
+         <div id="Nav3">
+        <Navigation />
+        <br />
       <div >
     <br />
     <br />
@@ -27,6 +31,7 @@ class DayOne extends Component {
     <br />
     <br />
 
+      </div>
       </div>
       </div>
     );

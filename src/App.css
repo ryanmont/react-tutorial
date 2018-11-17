@@ -326,7 +326,7 @@ display:none;
 }
 
 .btn-custom2:hover{
-  opacity:0.7;
+  opacity:0.8;
   background-color:#F7D02F;
   font-weight: bold;
   text-decoration: none;
@@ -341,14 +341,17 @@ display:none;
   background-color:white;
 }
 
-#test1 .active1, #Nav2 .active2 , #Nav3 .active3 , #Nav4 .active4 , #Nav5 .active5  {
-  border-top: 3px solid grey;
-  color:pink;
+
+#Nav1 .active1 a,  #Nav2 .active2 a, #Nav3 .active3 a, #Nav4 .active4 a, #Nav5 .active5 a {
+  border-bottom: 3px solid grey;
+  color:#1CA18B;
 }
 
-.active8{
-  color:red;
+.daynav{
+  width:70%;
 }
+
+
 /* .panel-default{
   border-color:white;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { NavLink } from 'react-router-dom'
-import { Nav,NavItem,Navbar,Button,ButtonGroup }  from 'react-bootstrap';
+import { Button,ButtonGroup }  from 'react-bootstrap';
 
 class DayNav extends Component {
   render() {
@@ -35,6 +35,7 @@ class DayNav extends Component {
       </Navbar> */}
  
 <br />
+<div className= "daynav">
 <ButtonGroup justified >
   <Button eventKey={1} href="/DayOne" className= "btn btn-custom2 link1"> Day One</Button>
   <Button eventKey={3} href="/DayTwo" className= "btn btn-custom2 link2">Day Two</Button>
@@ -42,7 +43,7 @@ class DayNav extends Component {
   <Button eventKey={4} href="Round" className= "btn btn-custom2 link4"> Round</Button>
  
 </ButtonGroup>
-
+</div>
       <br />
       <br />
       <br />

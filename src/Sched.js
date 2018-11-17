@@ -1,12 +1,15 @@
 
 import React, { Component } from 'react';
 import DayNav from './DayNav';
+import Navigation from './Navigation';
 
 class Sched extends Component {
   render() {
     return (
 
         <div className="App">
+        <div id="Nav5">
+        <Navigation />
         <center>
             <br />
             <br /> 
@@ -18,6 +21,7 @@ class Sched extends Component {
             <br /> 
        
        </center>
+       </div>
        </div>
     );
   }

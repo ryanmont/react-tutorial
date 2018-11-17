@@ -3,13 +3,14 @@ import React, { Component } from 'react';
 import LandingCarousel from './LandingCarousel';
 import LandingBottom from './LandingBottom';
 import Video from './Video';
+import Navigation from './Navigation';
 
 class Home extends Component {
   render() {
     return (
-      <body id="DayOne">
+      <div id="Nav1">
       <div>
-      
+      <Navigation />
          <center>
         <div className ="landing-top">
             <LandingCarousel />
@@ -30,7 +31,7 @@ class Home extends Component {
             <br />
         </center>
       </div> 
-      </body>
+      </div>
     );
   }
 }

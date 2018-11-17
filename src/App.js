@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Home from './Home';
 import Venue from './Venue';
-import Schedule from './Schedule';
 import Faq from './Faq';
 import Error from './Error';
 import Footer from './Footer';
@@ -23,7 +22,7 @@ class App extends Component {
       <div className="App">
        <center>
 
-       <Navigation />
+       
   
           <Router>
               <Switch>

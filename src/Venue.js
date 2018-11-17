@@ -1,12 +1,13 @@
 
 import React, { Component } from 'react';
+import Navigation from './Navigation';
 // import { Button }  from 'react-bootstrap';
 
 class Venue extends Component {
   render() {
     return (
-      <div id="Nav2 ">
-        <br />
+      <div id="Nav2">
+      <Navigation />
         <br />
         <br />
 

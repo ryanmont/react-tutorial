@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 // import { Button }  from 'react-bootstrap';
+import Navigation from './Navigation';
+
 
 class Faq extends Component {
   render() {
     return (
-      <div className="faq">
-        
+     <div id="Nav4">
+       <div className="faq">
+       <Navigation />
+    </div>
         <center>
           <br />
           <br />
