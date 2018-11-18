@@ -352,6 +352,13 @@ display:none;
 }
 
 
+.home2{
+  width:100%;
+  max-width:1200px;
+  height:auto
+}
+
+
 /* .panel-default{
   border-color:white;
 }

@@ -17,7 +17,7 @@ class Faq extends Component {
 
 <div class ="faq-top">
 
-<img src="https://s3-us-west-1.amazonaws.com/mont-general/web+FAQ+1+photo.jpg" alt="faq" style={{"width":"90%"}} />
+<img src="https://s3-us-west-1.amazonaws.com/mont-general/final/web+FAQ+1+photo.jpg" alt="faq" style={{"width":"90%"}} />
 
 </div>
 </center>

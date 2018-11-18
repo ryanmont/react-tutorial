@@ -9,26 +9,25 @@ class LandingCarousel extends Component {
       <br />
       <br />
 
-      <Carousel>
-  {/* <Carousel.Item>
-    <img src="https://s3-us-west-1.amazonaws.com/mont-general/condensed+design+faq.jpg"  alt="faq" src="/carousel.png" style={{"width":"600px"}} />
+      <Carousel
+      interval={3000}
+      >
 
-    </Carousel.Item> */}
 
   <Carousel.Item>
-    <img width={1600}  alt="Jane1" src="https://s3-us-west-1.amazonaws.com/mont-general/carosel+1.jpg" />
+    <img width={1300}  alt="Jane1" src="https://s3-us-west-1.amazonaws.com/mont-general/final/1+new+photo+2.jpg" />
   </Carousel.Item>
 
   <Carousel.Item>
-    <img width={1600} alt="Jane2" src="https://s3-us-west-1.amazonaws.com/mont-general/carosel+2.jpg" />
+    <img width={1300} alt="Jane2" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carosel+3+option+1.jpg"  />
   </Carousel.Item>
 
   <Carousel.Item>
-    <img width={1600} alt="Jane3" src="https://s3-us-west-1.amazonaws.com/mont-general/carosel+3.jpg" />
+    <img width={1300} alt="Jane3" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carosel+3+option+4.jpg" />
   </Carousel.Item>
 
   <Carousel.Item>
-    <img width={1600} alt="Jane4" src="https://s3-us-west-1.amazonaws.com/mont-general/carosel+4+copy3.jpg" />
+    <img width={1300} alt="Jane4" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carosel+4.jpg" />
   </Carousel.Item>
 
 </Carousel>

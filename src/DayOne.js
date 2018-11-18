@@ -15,7 +15,7 @@ class DayOne extends Component {
     <br />
         <center>
 
-        <img src="https://s3-us-west-1.amazonaws.com/mont-general/jane+night+out+photo.jpg" alt="faq" style={{"width":"70%"}} />
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+1.jpg" alt="faq" style={{"width":"70%"}} />
         <br />
     <DayNav />
 

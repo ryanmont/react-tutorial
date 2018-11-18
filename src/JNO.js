@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import DayNav from './DayNav';
+import Navigation from './Navigation';
 
 
 class JNO extends Component {
   render() {
     return (
         <div id="JNOJane">
-      <div >
+        <div id="Nav3">
+        <Navigation />
+        <br />
+      <div>
+      </div>
     <br />
     <br />
         <center>
 
-        <img src="https://s3-us-west-1.amazonaws.com/mont-general/jane+night+out+photo.jpg" alt="faq" style={{"width":"70%"}} />
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+3.jpg" alt="faq" style={{"width":"70%"}} />
         <br />
     <DayNav />
 

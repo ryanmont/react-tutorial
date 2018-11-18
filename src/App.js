@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Home from './Home';
+import Home2 from './Home2'
 import Venue from './Venue';
 import Faq from './Faq';
 import Error from './Error';
 import Footer from './Footer';
-import Sched from './Sched'
 import DayOne from './DayOne'
 import DayTwo from './DayTwo'
 import JNO from './JNO'
@@ -30,7 +30,7 @@ class App extends Component {
                 <Route path="/theLOCALE" component={Venue} />
                 <Route path="/theLINEUP" component={DayOne} />
                 <Route path="/QandA" component={Faq} />
-                <Route path="/Sched" component={Sched} />
+                <Route path="/whatsUP2" component={Home2} />
                 <Route path="/DayOne" component={DayOne} />
                 <Route path="/DayTwo" component={DayTwo} />
                 <Route path="/JNO" component={JNO} />

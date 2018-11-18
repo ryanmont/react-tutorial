@@ -27,6 +27,10 @@ class Navigation extends Component {
               what's UP
             </NavItem>
 
+            <NavItem eventKey={4} className="active5" href="/whatsUP2" >
+             what's UP2
+            </NavItem>
+
             <NavItem eventKey={2} className="active2" href="/theLOCALE"  >
               theLOCALE
             </NavItem>
@@ -35,13 +39,11 @@ class Navigation extends Component {
               theLINEUP
             </NavItem>
 
-            <NavItem eventKey={4} className="active4" href="QandA">
+            <NavItem eventKey={4} className="active4" href="/QandA">
               QandA
             </NavItem>
 
-            <NavItem eventKey={4} className="active5" href="Sched" >
-             Sched
-            </NavItem>
+
 
             <NavItem  className ="register" eventKey={5} href="https://janecon2019.regfox.com/janecon-2019">
               I'M in!
