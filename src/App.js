@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation';
 import Home from './Home';
 import Home2 from './Home2'
 import Venue from './Venue';
