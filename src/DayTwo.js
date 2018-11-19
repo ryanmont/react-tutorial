@@ -17,15 +17,18 @@ class DayTwo extends Component {
     <br />
         <center>
 
-        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+2.jpg" alt="faq" style={{"width":"70%"}} />
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+2.jpg" alt="faq" style={{"width":"80%"}} />
         <br />
     <DayNav />
 
-    <br />
-    <br />
-    <br />
-
-         DAY TWO DESCRIPTION /  AGENDA GOES HERE
+        <div className="agenda">
+          CEO Keynote <br />
+          Product Announcements <br />
+          Break Out Sessions <br />
+          Service <br />
+          Seller Speaker <br />
+          Rachel Hollis <br />
+        </div>
 
     </center>
 

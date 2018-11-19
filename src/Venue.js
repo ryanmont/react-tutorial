@@ -15,7 +15,7 @@ class Venue extends Component {
 
 <img src="https://s3-us-west-1.amazonaws.com/mont-general/uvcc+copy.jpg" alt="faq" style={{"width":"100%"}} />
 </div>
-
+<br />
 <center>
 
   < a class="btn btn-custom"  href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
@@ -99,11 +99,8 @@ $130/night plus tax<br />
     Book your room now 
     </a>
 
-
-
 </div>
 </center>
-Name
 
       </div>
   

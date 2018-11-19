@@ -45,8 +45,6 @@ class DayNav extends Component {
 </ButtonGroup>
 </div>
       <br />
-      <br />
-      <br />
 
       </div>
 

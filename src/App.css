@@ -17,12 +17,14 @@ background-color: white;
 }
  
 .navbar {
-  background-color: white ;
+  background-color: white;
 }
 
 .navbar-default .navbar-nav  > li > a { 
   color: #444E63;
   font-family: 'Raleway', sans-serif;
+  padding:10px 12px 10px 12px;
+
 } 
 
 .navbar-default .navbar-nav  > li > a:hover{
@@ -32,7 +34,7 @@ background-color: white;
 
 
 .register {
-  background-color:#F7D031;
+  background-color:#FDB51F;
 }
 
 
@@ -169,7 +171,7 @@ font-family: 'Raleway', sans-serif;
 
 /* VENUE PAGE */
 .venue-one{
-margin:12px 15% 10px 15%;
+width:80%;
 
 }
 
@@ -216,7 +218,7 @@ font-weight: bold;
 }
 
 .venue-four{
-margin:12px 15% 0px 15%;
+width:80%;
 }
 
 .venue-four hr{
@@ -298,25 +300,25 @@ margin-bottom: 25px
 display:none;
 }
 .btn-custom{
-  background-color:#F7D02F;
+  background-color:#FDB51F;
   color:#444E63;
   padding:10px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  border: 3px solid #F7D02F;
+  border: 3px solid #FDB51F;
 }
 
 .btn-custom:hover{
   background-color:#ffffff;
-  color:#F7D02F;
+  color:#FDB51F;
   font-weight: bold;
   text-decoration: none;
   box-shadow: 5px 2px 20px #dcdcdc;
 }
 
 .btn-custom2{
-  background-color:#F7D02F;
+  background-color:#FDB51F;
   color:#444E63;
   padding:10px;
   font-weight: bold;
@@ -327,7 +329,7 @@ display:none;
 
 .btn-custom2:hover{
   opacity:0.8;
-  background-color:#F7D02F;
+  background-color:#FDB51F;
   font-weight: bold;
   text-decoration: none;
   border: 1px solid white
@@ -336,28 +338,41 @@ display:none;
 
 
 #DayOne .link1, #DayTwo .link2, #JNOJane .link3, #Round .link4 {  
-  color: #1CA18B;
-  border-top: 3px solid #1CA18B;
-  background-color:white;
+  color: white;
+  border-top: 2.5px solid #1CA18B;
+  background-color:#2B3A4B;
+  font-weight: bold;
 }
 
 
 #Nav1 .active1 a,  #Nav2 .active2 a, #Nav3 .active3 a, #Nav4 .active4 a, #Nav5 .active5 a {
-  border-bottom: 3px solid grey;
-  color:#1CA18B;
+  border-bottom: 2.5px solid #1CA18B;
+  color:white;
+  background-color:#2B3A4B;
+  font-weight: bold;
 }
 
 .daynav{
-  width:70%;
+  width:80%;
 }
 
 
 .home2{
   width:100%;
-  max-width:1200px;
+  max-width:1300px;
   height:auto
 }
 
+.agenda
+{
+  background-color: #1CA18B;
+  color: white;
+  padding:30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13pt;
+  width:80%;
+
+}
 
 /* .panel-default{
   border-color:white;

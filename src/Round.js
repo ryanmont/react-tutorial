@@ -14,17 +14,20 @@ class Round extends Component {
             <br />
             <br />
             <center>
-              <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+4.jpg" alt="faq" style={{"width":"70%"}} />
+              <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+4.jpg" alt="faq" style={{"width":"80%"}} />
                 <br />
     
                  <DayNav />
 
                 <br />
-                <br />
-                <br />
 
-              Round Table DESCRIPTION /  AGENDA GOES HERE
-
+                <div className="agenda">
+                  When you register for the conference, you get to choose three round table sessions.
+                  <br />
+                  <br />
+                  A round table session consists of a small group of sellers and one topic expert who will lead the discussion.
+                  There is limited setating at each table so make sure to sign up quickly so you can get the table of your choice.
+                </div>
               </center>
 
               <br />

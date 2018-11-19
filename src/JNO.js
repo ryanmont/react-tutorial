@@ -16,16 +16,14 @@ class JNO extends Component {
     <br />
         <center>
 
-        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+3.jpg" alt="faq" style={{"width":"70%"}} />
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+3.jpg" alt="faq" style={{"width":"80%"}} />
         <br />
     <DayNav />
 
     <br />
-    <br />
-    <br />
-
-         JNO DESCRIPTION /  AGENDA GOES HERE
-
+<div className= "daynav">
+ <img src="https://s3-us-west-1.amazonaws.com/mont-general/jno+graphic+lineup.png" alt="faq" style={{"width":"50%"}} />
+</div>
     </center>
 
     <br />
