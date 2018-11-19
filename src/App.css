@@ -34,7 +34,7 @@ background-color: white;
 
 
 .register {
-  background-color:#FDB51F;
+  background-color:#ecd5e3;
 }
 
 
@@ -300,25 +300,25 @@ margin-bottom: 25px
 display:none;
 }
 .btn-custom{
-  background-color:#FDB51F;
+  background-color:#ecd5e3;
   color:#444E63;
   padding:10px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  border: 3px solid #FDB51F;
+  border: 3px solid #ecd5e3;
 }
 
 .btn-custom:hover{
   background-color:#ffffff;
-  color:#FDB51F;
+  color:#ecd5e3;
   font-weight: bold;
   text-decoration: none;
   box-shadow: 5px 2px 20px #dcdcdc;
 }
 
 .btn-custom2{
-  background-color:#FDB51F;
+  background-color:#ecd5e3;
   color:#444E63;
   padding:10px;
   font-weight: bold;
@@ -329,7 +329,7 @@ display:none;
 
 .btn-custom2:hover{
   opacity:0.8;
-  background-color:#FDB51F;
+  background-color:#ecd5e3;
   font-weight: bold;
   text-decoration: none;
   border: 1px solid white
@@ -365,13 +365,12 @@ display:none;
 
 .agenda
 {
-  background-color: #1CA18B;
-  color: white;
-  padding:30px;
+  background-color: white;
+  color: #1CA18B;
+  text-align:left;
   font-family: 'Raleway', sans-serif;
-  font-size: 13pt;
+  font-size: 17pt;
   width:80%;
-
 }
 
 /* .panel-default{
@@ -530,6 +529,16 @@ display:none;
 
             .navlineup{
               margin-left:50px
+            }
+
+            .agenda
+            {
+              background-color: white;
+              color: #1CA18B;
+              text-align:left;
+              font-family: 'Raleway', sans-serif;
+              font-size: 13pt;
+              width:80%;
             }
 }
 

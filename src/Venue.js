@@ -98,7 +98,8 @@ $130/night plus tax<br />
     < a className="btn btn-custom"   href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
     Book your room now 
     </a>
-
+<br />
+<br />
 </div>
 </center>
 

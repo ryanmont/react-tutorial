@@ -19,6 +19,8 @@ class DayOne extends Component {
         <br />
     <DayNav />
 
+    <br />
+
      <div className="agenda">
         CEO Keynote <br />
         Customer Insight <br />

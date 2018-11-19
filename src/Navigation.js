@@ -11,7 +11,7 @@ class Navigation extends Component {
         <Navbar.Header>
           <Navbar.Brand>
 
-            <a href= "https://www.janecon.com"> 
+            <a href= "https://jane.com/janecon"> 
             <img src="https://s3-us-west-1.amazonaws.com/mont-general/janecon2019.png" alt="faq" style={{"width":"250px"}} />
             </a>
           
@@ -23,12 +23,12 @@ class Navigation extends Component {
         <Navbar.Collapse>
           <Nav pullRight >
             
-            <NavItem eventKey={1} className= "active1" href="/" >
+            {/* <NavItem eventKey={1} className= "active1" href="/" >
               what's UP
-            </NavItem>
+            </NavItem> */}
 
-            <NavItem eventKey={4} className="active5" href="/whatsUP2" >
-             what's UP2
+            <NavItem eventKey={4} className="active5" href="/" >
+             what's UP
             </NavItem>
 
             <NavItem eventKey={2} className="active2" href="/theLOCALE"  >

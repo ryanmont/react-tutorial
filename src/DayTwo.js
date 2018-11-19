@@ -20,6 +20,7 @@ class DayTwo extends Component {
         <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+2.jpg" alt="faq" style={{"width":"80%"}} />
         <br />
     <DayNav />
+    <br />
 
         <div className="agenda">
           CEO Keynote <br />

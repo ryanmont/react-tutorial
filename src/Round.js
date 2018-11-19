@@ -18,8 +18,7 @@ class Round extends Component {
                 <br />
     
                  <DayNav />
-
-                <br />
+                 <br />
 
                 <div className="agenda">
                   When you register for the conference, you get to choose three round table sessions.
