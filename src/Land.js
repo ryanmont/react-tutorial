@@ -14,6 +14,7 @@ class Land extends Component {
         <Navigation />
         <center>
             <br />
+            <br />
             <div className = "home2">
 
            <LandingCarousel />

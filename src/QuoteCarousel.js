@@ -5,7 +5,9 @@ class QuoteCarousel extends Component {
   render() {
     return (
       <div className="carousel">
-      <Carousel>
+          <Carousel
+      interval={4000}
+      >
 
   <Carousel.Item>
     <img width={1200}  alt="quote1" src ="https://s3-us-west-1.amazonaws.com/mont-general/final/quote1final.jpg"  />
