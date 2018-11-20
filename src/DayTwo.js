@@ -16,8 +16,10 @@ class DayTwo extends Component {
     <br />
     <br />
         <center>
+        <div className ="lineupimage">
 
-        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+2.jpg" alt="faq" style={{"width":"80%"}} />
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+2.jpg" alt="faq" style={{"width":"100%"}}/>
+        </div>
         <br />
     <DayNav />
     <br />

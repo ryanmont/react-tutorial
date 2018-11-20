@@ -11,10 +11,11 @@ class Navigation extends Component {
         <Navbar.Header>
           <Navbar.Brand>
 
-            <a href= "https://jane.com/janecon"> 
-            <img src="https://s3-us-west-1.amazonaws.com/mont-general/janecon2019.png" alt="faq" style={{"width":"250px"}} />
-            </a>
           
+            <a href= "https://jane.com/janecon"> 
+            <img src="https://s3-us-west-1.amazonaws.com/mont-general/janecon2019.png"  alt="faq" style={{"width":"230px"}} />
+            </a>
+   
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

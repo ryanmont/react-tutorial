@@ -12,17 +12,18 @@ class JNO extends Component {
         <br />
       <div>
       </div>
-    <br />
-    <br />
+          <br />
+          <br />
         <center>
-
-        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+3.jpg" alt="faq" style={{"width":"80%"}} />
+        <div className ="lineupimage">
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+3.jpg" alt="faq" style={{"width":"100%"}}/>
+        </div>
         <br />
     <DayNav />
 
     <br />
-<div className= "daynav">
- <img src="https://s3-us-west-1.amazonaws.com/mont-general/jno+graphic+lineup.png" alt="faq" style={{"width":"50%"}} />
+<div className= "jno">
+ <img src="https://s3-us-west-1.amazonaws.com/mont-general/jno+graphic+lineup.png" alt="faq" style={{"width":"90%"}} />
 </div>
     </center>
 

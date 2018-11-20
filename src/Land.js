@@ -22,10 +22,12 @@ class Land extends Component {
               <br />
               <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/carosel+3+option+4.jpg" alt="faq" style={{"width":"100%"}} />
               <br />
+              <br />
               <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/2018+highlights.jpg" alt="faq" style={{"width":"100%"}} />
               <br />
               <Video />
               <br />
+              <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/big+news+(1).jpg" alt="faq" style={{"width":"100%"}} />
               <QuoteCarousel />
               <br />
               <img src ="https://s3-us-west-1.amazonaws.com/mont-general/final/hollis+gargan.jpg" alt="speakers" style={{"width":"100%"}} />

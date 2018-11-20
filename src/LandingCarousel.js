@@ -6,8 +6,6 @@ class LandingCarousel extends Component {
     return (
       <div className="carousel">
       <br />
-      <br />
-      <br />
 
       <Carousel
       interval={3000}

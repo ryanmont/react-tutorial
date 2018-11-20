@@ -23,6 +23,7 @@ background-color: white;
 .navbar-default .navbar-nav  > li > a { 
   color: #444E63;
   font-family: 'Raleway', sans-serif;
+
   padding:10px 12px 10px 12px;
 
 } 
@@ -32,6 +33,10 @@ background-color: white;
 
 }
 
+.navbar .navbar-header .navbar-brand {
+  font-size: small;
+
+}
 
 .register {
   background-color:#ecd5e3;
@@ -171,7 +176,7 @@ font-family: 'Raleway', sans-serif;
 
 /* VENUE PAGE */
 .venue-one{
-width:80%;
+width:90%;
 
 }
 
@@ -350,45 +355,41 @@ display:none;
   color:white;
   background-color:#2B3A4B;
   font-weight: bold;
+
 }
 
 .daynav{
-  width:80%;
+  width:100%;
+  max-width:1200px;
+}
+.jno{
+  width:60%;
 }
 
 
 .home2{
   width:100%;
-  max-width:1300px;
+  max-width:1200px;
   height:auto
 }
 
 .agenda
 {
-  background-color: white;
-  color: #1CA18B;
-  text-align:left;
-  font-family: 'Raleway', sans-serif;
+  background-color: #2B3A4B;
+  color:white;
+  text-align:center;
+  font-family: 'Raleway Regular', sans-serif;
+  padding:25px;
   font-size: 17pt;
-  width:80%;
+  width:100%;
+  max-width:1200px;
+  border-top: 3px solid #1CA18B;
+  border-bottom: 3px solid #1CA18B;
 }
-
-/* .panel-default{
-  border-color:white;
+.lineupimage{
+  width:100%;
+  max-width:1300px;
 }
-
-.panel-group .panel+.panel {
-  margin-top: 0px; }
-
-
-
-.panel > .panel-heading {
-  background-image: none;
-  background-color:#F7D02F;
-  color: white;
-  width:50%;
-  border-color:white;
-} */
 
 .navlineup{
   text-align: center;
@@ -476,7 +477,7 @@ display:none;
 
 
   .landing-video{
-    width:95%;
+    width:100%;
     }
 
 
@@ -534,11 +535,16 @@ display:none;
             .agenda
             {
               background-color: white;
-              color: #1CA18B;
+              color: #2B3A4B;
               text-align:left;
-              font-family: 'Raleway', sans-serif;
-              font-size: 13pt;
+              font-family: 'Raleway Regular', sans-serif;
+              font-size: 12pt;
               width:80%;
             }
+            
+            .jno{
+              width:100%;
+            }
+
 }
 
