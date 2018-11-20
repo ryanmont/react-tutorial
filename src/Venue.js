@@ -13,18 +13,12 @@ class Venue extends Component {
 
  <div className = "venue-one">
 
-<img src="https://s3-us-west-1.amazonaws.com/mont-general/uvcc+copy.jpg" alt="faq" style={{"width":"100%"}} />
+<img src="https://s3-us-west-1.amazonaws.com/mont-general/final/uvccfinal.jpg" alt="faq" style={{"width":"100%"}} />
 </div>
 <br />
-<center>
-
-  < a class="btn btn-custom"  href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
-  Parking 
-  &
-  Directions
-</a>
-
-</center>
+<div className= "transportation">
+<img src="https://s3-us-west-1.amazonaws.com/mont-general/final/transportation_edited-1.jpg" alt="faq" style={{"width":"100%"}} />
+</div>
 
 <div className = "venue-three">
 
@@ -68,6 +62,16 @@ class Venue extends Component {
 
 </div>
 
+
+<center>
+
+< a class="btn btn-custom"  href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
+Parking 
+&
+Directions
+</a>
+
+</center>
 
 <div className= "venue-four">
   <br />

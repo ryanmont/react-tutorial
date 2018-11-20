@@ -13,19 +13,19 @@ class LandingCarousel extends Component {
 
 
   <Carousel.Item>
-    <img width={1200}  alt="Jane1" src="https://s3-us-west-1.amazonaws.com/mont-general/final/1+new+photo+2.jpg" />
+    <img width={1200}  alt="Jane1" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carousel+1+j.jpg" />
   </Carousel.Item>
 
   <Carousel.Item>
-    <img width={1200} alt="Jane2" src="https://s3-us-west-1.amazonaws.com/mont-general/final/+carousel+3+option+1+short.jpg"  />
+    <img width={1200} alt="Jane2" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carousel+2.png"  />
   </Carousel.Item>
 
   <Carousel.Item>
-    <img width={1200} alt="Jane3" src="https://s3-us-west-1.amazonaws.com/mont-general/final/big+news+(1).jpg" />
+    <img width={1200} alt="Jane3" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carousel+3.jpg" />
   </Carousel.Item>
 
   <Carousel.Item>
-    <img width={2300} alt="Jane4" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carosel+4.jpg" />
+    <img width={1200} alt="Jane4" src="https://s3-us-west-1.amazonaws.com/mont-general/final/carousel+4.jpg" />
   </Carousel.Item>
 
 </Carousel>

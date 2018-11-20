@@ -24,20 +24,20 @@ class Faq extends Component {
 
 <center>
 <div class= "faq-bottom">
-  Who can attend?
+Is only the business owner able to attend for free? 
   <br />
-  <span> Jane sellers.</span>
+  <span> YES, all other employees can register for $99 after Dec. 14, 2018. </span>
 <br />
 <br />
 
   How many tickets am I able to get?
   <br />
-  <span> One ticket per seller- Until they're sold out. </span>
+  <span> One free ticket for the business owner and other employees of the business may register for $99 after December 14th as long as tickets are available. *Limited seats are available this year.  </span>
 <br />
 <br />
 
 
-  What if I decide not to attend?
+ What if I decide not to attend after I have registered??
   <br />
   <span> We will deduct $99 from your Seller Account.</span>
 <br />
@@ -45,9 +45,8 @@ class Faq extends Component {
 
   What is the deadline to cancel my registration and not be charged $99?
   <br />
-  <span> You have until January 1, 2019 to cancel your registration without being charged $99.
-    <br />
-    After January 1st we will debit $99 from your Seller Account.
+  <span> 
+    Once you register you are agreeing to the cancellation penalty from that point forward. *get rid of the Jan 1 deadline.
   </span>
 <br />
 <br />

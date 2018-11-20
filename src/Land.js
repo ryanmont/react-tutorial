@@ -30,7 +30,7 @@ class Land extends Component {
               <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/big+news+(1).jpg" alt="faq" style={{"width":"100%"}} />
               <QuoteCarousel />
               <br />
-              <img src ="https://s3-us-west-1.amazonaws.com/mont-general/final/hollis+gargan.jpg" alt="speakers" style={{"width":"100%"}} />
+              <img src ="https://s3-us-west-1.amazonaws.com/mont-general/final/hollis+gargan1.jpg" alt="speakers" style={{"width":"100%"}} />
               <br />
 
               <a  href="https://janecon2019.regfox.com/janecon-2019">

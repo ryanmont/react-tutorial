@@ -176,7 +176,7 @@ font-family: 'Raleway', sans-serif;
 
 /* VENUE PAGE */
 .venue-one{
-width:90%;
+width:100%;
 
 }
 
@@ -193,6 +193,9 @@ border: 3px solid white;
 }
 
 
+.transportation{
+  width: 30%;
+}
 .venue-two a{
   text-decoration: none;
   color:white;
@@ -544,6 +547,9 @@ display:none;
             
             .jno{
               width:100%;
+            }
+            .transportation{
+              width: 75%;
             }
 
 }

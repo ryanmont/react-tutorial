@@ -23,7 +23,7 @@ class JNO extends Component {
 
     <br />
 <div className= "jno">
- <img src="https://s3-us-west-1.amazonaws.com/mont-general/jno+graphic+lineup.png" alt="faq" style={{"width":"90%"}} />
+ <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/jno%2Bgraphic%2Blineup_edited-2.jpg" alt="faq" style={{"width":"100%"}} />
 </div>
     </center>
 
