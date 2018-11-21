@@ -3,11 +3,9 @@
 }
 
 
-
 a{
   text-decoration: none
 }
-
 
 
 /* NAVBAR Styles*/
@@ -36,6 +34,18 @@ background-color: white;
 .navbar .navbar-header .navbar-brand {
   font-size: small;
 
+}
+.navbar.navbar-default {
+  background-color: white;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .register {
@@ -91,59 +101,7 @@ width:70%;
 
 
 
-/* REGISTER PAGE STYLES */
-
-.register-top{
-background-color: #F9E122;
-height:350px;
-width:100%;
-font-family: 'Open Sans', sans-serif;
-font-weight: 300;
-margin-top: 0px;
-color:#ffffff;
-letter-spacing: 7px;
-}
-
-
-.register-top :hover{
-color:#444E63;
-}
-
-
-.register-top p{
-position: relative;
-top: 35%;
-transform: translateY(-50%);
-font-size: 50pt;
-margin-top: 15px;
-
--webkit-animation-duration: 4s;
--webkit-animation-delay: 1.5s;
--webkit-animation-iteration-count: 7;
-}
-
-.register-bottom-header{
-font-family: 'Mr Dafoe', cursive;
-font-size: 40pt;
-color: #444E63;
-margin-bottom: 25px
-
-}
-
-.register-bottom{
-line-height: 1.9;
-font-family: 'Raleway', sans-serif;
-font-size: 14pt;
-color:#444E63;
-margin: 50px 110px 50px 110px;
-}
-
-
-/* REGISTER PAGE END */
-
-
-
-/* FAQ PAGE */
+/* FAQ PAGE QandA*/
 
 .faq-top{
 width:100%;
@@ -174,7 +132,7 @@ font-family: 'Raleway', sans-serif;
 
 
 
-/* VENUE PAGE */
+/* VENUE PAGE theLOCALE */
 .venue-one{
 width:100%;
 
@@ -194,7 +152,7 @@ border: 3px solid white;
 
 
 .transportation{
-  width: 30%;
+  width: 40%;
 }
 .venue-two a{
   text-decoration: none;
@@ -218,7 +176,7 @@ grid-gap: 25px;
 justify-items: center;
 align-content: space-between;
 font-family: 'Raleway', sans-serif;
-color:#444E63;
+font-size:13pt;
 }
 
 .venue-three span{
@@ -252,7 +210,7 @@ font-weight: bold
 
 
 
-/* SCHEDULE PAGE */
+/* SCHEDULE PAGE theLINEUP */
 
 .schedule-top{
 width:100%;
@@ -275,9 +233,40 @@ font-family: 'Mr Dafoe', cursive;
 font-size: 40pt;
 color: #444E63;
 margin-bottom: 25px
-
 }
 
+.daynav{
+  width:100%;
+  max-width:1200px;
+}
+.jno{
+  width:60%;
+}
+
+
+.home2{
+  width:100%;
+  max-width:1200px;
+  height:auto
+}
+
+.agenda
+{
+  background-color: #2B3A4B;
+  color:white;
+  text-align:center;
+  font-family: 'Kaushan Script', cursive;
+  padding:25px;
+  font-size: 18pt;
+  width:100%;
+  max-width:1200px;
+  border-top: 3px solid #1CA18B;
+  border-bottom: 3px solid #1CA18B;
+}
+.lineupimage{
+  width:100%;
+  max-width:1200px;
+}
 
 
 /* SCHEDULE END */
@@ -312,7 +301,7 @@ display:none;
   color:#444E63;
   padding:10px;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway Italic', sans-serif;
   text-decoration: none;
   border: 3px solid #ecd5e3;
 }
@@ -361,75 +350,7 @@ display:none;
 
 }
 
-.daynav{
-  width:100%;
-  max-width:1200px;
-}
-.jno{
-  width:60%;
-}
 
-
-.home2{
-  width:100%;
-  max-width:1200px;
-  height:auto
-}
-
-.agenda
-{
-  background-color: #2B3A4B;
-  color:white;
-  text-align:center;
-  font-family: 'Raleway Regular', sans-serif;
-  padding:25px;
-  font-size: 17pt;
-  width:100%;
-  max-width:1200px;
-  border-top: 3px solid #1CA18B;
-  border-bottom: 3px solid #1CA18B;
-}
-.lineupimage{
-  width:100%;
-  max-width:1300px;
-}
-
-.navlineup{
-  text-align: center;
-}
-.navlineup .navbar-default .navbar-nav  > li > a { 
-  color:#444E63;
-  font-size:15pt;
-
-}
-
-.data-toggle {
-  display:none;
-}
-
-.navlineup .navbar-default {
-  border-color:white;
-
-}
-
-
-.dropdown-toggle:active, .open .dropdown-toggle {
-  background:#FFF !important; 
-  color:#000 !important;
-}
-
-.scheduledrop{
-  width:320px;
-  background-color:white;
-  font-size:13pt;
-  margin:10px;
-  padding:5px;
-  color: #1CA18B;
-}
-
-.jnoschedule{
-  width:600px;
-}
 
 /* BOOTSTRAP STYLES END */
 
@@ -459,20 +380,7 @@ display:none;
   
 }
 
-.dropdown-menu{
-  text-align: left;
-  float:none;
-}
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 /* MEDIA QUERIES */
 
@@ -537,20 +445,24 @@ display:none;
 
             .agenda
             {
-              background-color: white;
-              color: #2B3A4B;
               text-align:left;
-              font-family: 'Raleway Regular', sans-serif;
-              font-size: 12pt;
+              font-size: 11pt;
               width:80%;
+              background-color: #2B3A4B;
+              color:white;
+              font-family: 'Kaushan Script', cursive;
             }
             
             .jno{
               width:100%;
             }
             .transportation{
-              width: 75%;
+              width: 90%;
             }
 
+
+            .btn-custom2{
+                font-size:9pt;
+           }
 }
 

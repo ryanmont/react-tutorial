@@ -9,9 +9,9 @@ class DayNav extends Component {
 <br />
 <div className= "daynav">
   <ButtonGroup justified >
-    <Button eventKey={1} href="/DayOne" className= "btn btn-custom2 link1"> Day One</Button>
+    <Button eventKey={1} href="/DayOne" className= "btn btn-custom2 link1">Day One</Button>
+    <Button eventKey={3} href="/JNO" className= "btn btn-custom2 link3">Jane Night Out</Button>
     <Button eventKey={3} href="/DayTwo" className= "btn btn-custom2 link2">Day Two</Button>
-    <Button eventKey={3} href="/JNO" className= "btn btn-custom2 link3">JNO</Button>
   
   </ButtonGroup>
 </div>

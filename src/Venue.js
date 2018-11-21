@@ -17,7 +17,7 @@ class Venue extends Component {
 </div>
 <br />
 <div className= "transportation">
-<img src="https://s3-us-west-1.amazonaws.com/mont-general/final/transportation_edited-1.jpg" alt="faq" style={{"width":"100%"}} />
+<img src="https://s3-us-west-1.amazonaws.com/mont-general/final/transportation+final.jpg" alt="faq" style={{"width":"100%"}} />
 </div>
 
 <div className = "venue-three">
@@ -102,6 +102,7 @@ $130/night plus tax<br />
     < a className="btn btn-custom"   href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
     Book your room now 
     </a>
+<br />
 <br />
 <br />
 </div>

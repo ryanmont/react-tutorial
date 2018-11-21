@@ -24,7 +24,7 @@ class Faq extends Component {
 
 <center>
 <div class= "faq-bottom">
-Is only the business owner able to attend for free? 
+Is only the first person able to get in for free? 
   <br />
   <span> YES, all other employees can register for $99 after Dec. 14, 2018. </span>
 <br />
@@ -116,7 +116,7 @@ Is only the business owner able to attend for free?
 <br />
 
 
-  What's the weather like in Utah in May?
+  What's the weather like in Utah in April?
   <br />
   <span> It's officially Spring in April although it is typical to have snow in the mountains.  You can expect the weather to be in the mid to high 60's towards the end of April.</span>
 <br />

@@ -17,10 +17,9 @@ class DayTwo extends Component {
     <br />
         <center>
         <div className ="lineupimage">
-
-        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+2.jpg" alt="faq" style={{"width":"100%"}}/>
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/lineup+opt+5.jpg" alt="faq" style={{"width":"100%"}} />
         </div>
-        <br />
+  
     <DayNav />
     <br />
 
@@ -29,7 +28,7 @@ class DayTwo extends Component {
           Product Announcements <br />
           Break Out Sessions <br />
           Service <br />
-          Seller Speaker <br />
+          Seller Speaker ~ TBA<br />
           Rachel Hollis <br />
         </div>
 
