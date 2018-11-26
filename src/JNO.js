@@ -9,9 +9,9 @@ class JNO extends Component {
         <div id="JNOJane">
         <div id="Nav3">
         <Navigation />
-        <br />
-      <div>
-      </div>
+          <br />
+          <div>
+          </div>
           <br />
           <br />
         <center>

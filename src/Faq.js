@@ -26,13 +26,13 @@ class Faq extends Component {
 <div class= "faq-bottom">
 Is only the first person able to get in for free? 
   <br />
-  <span> YES, all other employees can register for $99 after Dec. 14, 2018. </span>
+  <span> YES each business is alloted one free ticket, and up to 5 more employees under the same business can register for $99 through Dec. 14, 2018. After December 14, 2018 all tickets are $99.</span>
 <br />
 <br />
 
   How many tickets am I able to get?
   <br />
-  <span> One free ticket for the business owner and other employees of the business may register for $99 after December 14th as long as tickets are available. *Limited seats are available this year.  </span>
+  <span> One free ticket per business and then up to 5 more at $99/each, as long as tickets are available up until December 14, 2018.  After December 14th all tickets are $99.  </span>
 <br />
 <br />
 
@@ -46,7 +46,7 @@ Is only the first person able to get in for free?
   What is the deadline to cancel my registration and not be charged $99?
   <br />
   <span> 
-    Once you register you are agreeing to the cancellation penalty from that point forward. *get rid of the Jan 1 deadline.
+    Once you register you are agreeing to the cancellation penalty from that point forward. 
   </span>
 <br />
 <br />

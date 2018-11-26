@@ -5,17 +5,17 @@ class Footer extends Component {
     return (
       <div>
 
-<center>
+      <center>
 
-<div>
-  <a href="https://jane.com" rel="noopener noreferrer"> <img src="https://s3-us-west-1.amazonaws.com/mont-general/jane.com.png"  alt="faq" style={{"width":"150px"}} />
-  </a>
-</div>
+      <div>
+        <a href="https://jane.com" rel="noopener noreferrer"> <img src="https://s3-us-west-1.amazonaws.com/mont-general/jane.com.png"  alt="faq" style={{"width":"150px"}} />
+        </a>
+      </div>
 
-</center>
+      </center>
 
-<br />
-<br />
+      <br />
+      <br />
       </div>
     );
   }

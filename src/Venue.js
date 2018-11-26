@@ -10,103 +10,104 @@ class Venue extends Component {
       <Navigation />
         <br />
         <br />
+        
+        <div className = "venue-one">
+        <br />
 
- <div className = "venue-one">
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/uvccfinal.jpg" alt="faq" style={{"width":"100%"}} />
+        </div>
+        <br />
+        <div className= "transportation">
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/final/transportation+final.jpg" alt="faq" style={{"width":"100%"}} />
+        </div>
 
-<img src="https://s3-us-west-1.amazonaws.com/mont-general/final/uvccfinal.jpg" alt="faq" style={{"width":"100%"}} />
-</div>
-<br />
-<div className= "transportation">
-<img src="https://s3-us-west-1.amazonaws.com/mont-general/final/transportation+final.jpg" alt="faq" style={{"width":"100%"}} />
-</div>
+        <div className = "venue-three">
 
-<div className = "venue-three">
+            <div>
+              <span>
+              Salt Lake Airport
+            </span>
+            <br />
+            <br />
+            SLC to Provo<br />
+            49.5 miles SE<br />
+            <br />
+            Alternate transportation:<br />
+            Frontrunner train and bus ~ $6.10<br />
+            <br />
+            Ride-sharing service (Lyft or Uber)<br />
+            Average Rate: $88(one way)<br />
+            <br />
+            Express Shuttle: $45 (one way)
 
-    <div>
-      <span>
-      Salt Lake Airport
-    </span>
-    <br />
-    <br />
-    SLC to Provo<br />
-    49.5 miles SE<br />
-    <br />
-    Alternate transportation:<br />
-    Frontrunner train and bus ~ $6.10<br />
-    <br />
-    Ride-sharing service (Lyft or Uber)<br />
-    Average Rate: $88(one way)<br />
-    <br />
-    Express Shuttle: $45 (one way)
-
-    </div>
-
-
-    <div>
-      <span>
-      Provo Airport
-    </span>
-    <br />
-    <br />
-    Provo to Convention Center<br />
-    4.0 miles E<br />
-    <br />
-    Ride-sharing service (Lyft or Uber)<br />
-    Average Rate: $7-$9<br />
-    <br />
-    Provo Frontrunner station to<br />
-    Provo Center Street area: $6-$8<br />
-
-    </div>
+            </div>
 
 
-</div>
+            <div>
+              <span>
+              Provo Airport
+            </span>
+            <br />
+            <br />
+            Provo to Convention Center<br />
+            4.0 miles E<br />
+            <br />
+            Ride-sharing service (Lyft or Uber)<br />
+            Average Rate: $7-$9<br />
+            <br />
+            Provo Frontrunner station to<br />
+            Provo Center Street area: $6-$8<br />
+
+            </div>
 
 
-<center>
-
-< a class="btn btn-custom"  href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
-Parking 
-&
-Directions
-</a>
-
-</center>
-
-<div className= "venue-four">
-  <br />
-  <hr />
-  <br />
-</div>
+        </div>
 
 
+        <center>
 
-<center>
-<div className = "venue-five">
+        < a class="btn btn-custom"  href ="http://www.utahvalleyconventioncenter.com/parking" target="_blank" rel="noopener noreferrer">
+        Parking 
+        &
+        Directions
+        </a>
 
- <img src="https://s3-us-west-1.amazonaws.com/mont-general/accomodations.jpg" alt="faq" style={{"width":"100%"}} />
+        </center>
 
-
-<br />
-Get a special JaneCon rate at the Provo Marriott:<br />
-<br />
-
-$130/night plus tax<br />
-* Located right across the street from the convention center
-
-<br />
-<br />
-<br />
+        <div className= "venue-four">
+          <br />
+          <hr />
+          <br />
+        </div>
 
 
-    < a className="btn btn-custom"   href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
-    Book your room now 
-    </a>
-<br />
-<br />
-<br />
-</div>
-</center>
+
+        <center>
+        <div className = "venue-five">
+
+        <img src="https://s3-us-west-1.amazonaws.com/mont-general/accomodations.jpg" alt="faq" style={{"width":"100%"}} />
+
+
+        <br />
+        Get a special JaneCon rate at the Provo Marriott:<br />
+        <br />
+
+        $130/night plus tax<br />
+        * Located right across the street from the convention center
+
+        <br />
+        <br />
+        <br />
+
+
+            < a className="btn btn-custom"   href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Jane.com%202019%20Sellers%20Conference%5Eslcvo%60janjanr%60130.00%60USD%60false%603%604/24/19%604/26/19%604/3/19&app=resvlink&stop_mobi=yes" target="_blank" rel="noopener noreferrer"> 
+            Book your room now 
+            </a>
+        <br />
+        <br />
+        <br />
+        </div>
+        </center>
 
       </div>
   

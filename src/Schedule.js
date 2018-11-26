@@ -10,7 +10,7 @@ class Schedule extends Component {
   render() {
     return (
       <div >
-<Navigation />
+        <Navigation />
         <center>
         <br />
 
@@ -18,18 +18,18 @@ class Schedule extends Component {
         <LineupCarousel />
             <br />
 
-    <LineupCollapse />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+        <LineupCollapse />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
 
 
-    </center>
+          </center>
 
       </div>
     );
